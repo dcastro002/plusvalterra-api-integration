@@ -108,7 +108,7 @@ async function procesarContacto(contactId) {
       idEmpresa: Number(ADDCONTROL_ID_EMPRESA),
       idGrupoAsesoresVenta: Number(externo ? ADDCONTROL_GRUPO_EXTERNO : ADDCONTROL_GRUPO_INTERNO),
       idUsuario: Number(ADDCONTROL_ID_USUARIO),
-      asesoresVenta: 'Asesor de venta',
+      asesoresVentas: 'Asesor de venta',
       nombreCompleto: nombre,
       nombreExterno: nombre,
       rol: 'ASESOR DE VENTAS',
